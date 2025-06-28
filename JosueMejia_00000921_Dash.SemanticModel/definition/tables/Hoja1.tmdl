@@ -1,0 +1,467 @@
+table Hoja1
+	lineageTag: 1569ca42-fbb3-4fa7-b596-934d761068be
+
+	column Fecha
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 1861d3dc-963c-4e0b-8b0f-09376dc3cb58
+		summarizeBy: none
+		sourceColumn: Fecha
+
+		variation Variación
+			isDefault
+			relationship: 6528d63d-451f-4ac0-9d8a-01cbe8a88b38
+			defaultHierarchy: LocalDateTable_f420793a-3712-4006-860b-1405f77c91a3.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Año
+		dataType: int64
+		formatString: 0
+		lineageTag: e74d7612-35a0-457b-958d-e52db464c1a1
+		summarizeBy: sum
+		sourceColumn: Año
+
+		annotation SummarizationSetBy = Automatic
+
+	column Semana
+		dataType: int64
+		formatString: 0
+		lineageTag: b612db80-44bf-479d-960a-670d3db37d57
+		summarizeBy: sum
+		sourceColumn: Semana
+
+		annotation SummarizationSetBy = Automatic
+
+	column Mes
+		dataType: string
+		lineageTag: 1b7d2dac-7242-4392-9c90-48ef79836fc8
+		summarizeBy: none
+		sourceColumn: Mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Numero Mes'
+		dataType: int64
+		formatString: 0
+		lineageTag: 82e433c0-d915-4209-ad8b-0c99bf1c182f
+		summarizeBy: sum
+		sourceColumn: Numero Mes
+
+		annotation SummarizationSetBy = Automatic
+
+	column datekey
+		dataType: int64
+		formatString: 0
+		lineageTag: 29a5913f-5310-462c-9324-20cebdcf375f
+		summarizeBy: none
+		sourceColumn: datekey
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column7
+		dataType: string
+		lineageTag: 7b3b4670-e1ac-407d-8f35-9e420f46cf80
+		summarizeBy: none
+		sourceColumn: Column7
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_canal
+		dataType: int64
+		formatString: 0
+		lineageTag: dade285a-e2b2-4ea2-806c-fd16f063397c
+		summarizeBy: none
+		sourceColumn: id_canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_canal
+		dataType: string
+		lineageTag: a041abb4-30a8-4cc2-b5e8-16672b2ddc6c
+		summarizeBy: none
+		sourceColumn: tipo_canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column canal
+		dataType: string
+		lineageTag: fb17766f-2228-4837-be76-3507d0add5fc
+		summarizeBy: none
+		sourceColumn: canal
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column11
+		dataType: string
+		lineageTag: ab44d251-32b8-4f48-8c65-9ec08e5fd20f
+		summarizeBy: none
+		sourceColumn: Column11
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_sede
+		dataType: int64
+		formatString: 0
+		lineageTag: 0703ee7e-0d7f-4e4e-a54a-bccecb21e79a
+		summarizeBy: none
+		sourceColumn: id_sede
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_sede
+		dataType: string
+		lineageTag: f120a630-3bb9-435b-831b-60fba5dd5955
+		summarizeBy: none
+		sourceColumn: nombre_sede
+
+		annotation SummarizationSetBy = Automatic
+
+	column ubicacion_sede
+		dataType: string
+		lineageTag: c942ea43-5b41-43b5-8d1b-f91cf0bcf835
+		summarizeBy: none
+		sourceColumn: ubicacion_sede
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column15
+		dataType: string
+		lineageTag: 25c020ee-8ae2-4ce2-8db7-0ce476cb14e6
+		summarizeBy: none
+		sourceColumn: Column15
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_Cliente
+		dataType: int64
+		formatString: 0
+		lineageTag: b9a6a096-0f8f-4c6f-8c86-2b6bc22d3a88
+		summarizeBy: none
+		sourceColumn: id_Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nombre
+		dataType: string
+		lineageTag: fbfc60f9-8c1c-4c26-84e9-0a47a9dbcee2
+		summarizeBy: none
+		sourceColumn: Nombre
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column18
+		dataType: string
+		lineageTag: a25a9543-7d83-4644-95bc-bab2080d496a
+		summarizeBy: none
+		sourceColumn: Column18
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_vehiculo
+		dataType: int64
+		formatString: 0
+		lineageTag: e1c384c7-3e4e-4928-9502-866945a96d5e
+		summarizeBy: none
+		sourceColumn: id_vehiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column marca_vehiculo
+		dataType: string
+		lineageTag: c7b36ceb-5a64-4006-8b25-e113d24294b4
+		summarizeBy: none
+		sourceColumn: marca_vehiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column modelo_vehiculo
+		dataType: string
+		lineageTag: e5564206-b3b4-4c25-815d-6cf8466a72ce
+		summarizeBy: none
+		sourceColumn: modelo_vehiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column tipo_vehiculo
+		dataType: string
+		lineageTag: 2038b320-984d-461f-a3ba-f12013759d0c
+		summarizeBy: none
+		sourceColumn: tipo_vehiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column año_vehiculo
+		dataType: int64
+		formatString: 0
+		lineageTag: c7bf629d-509c-4d5f-a643-ed783c4dd091
+		summarizeBy: sum
+		sourceColumn: año_vehiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column24
+		dataType: string
+		lineageTag: 010617aa-176f-40a9-b7b0-2d62ea4efe10
+		summarizeBy: none
+		sourceColumn: Column24
+
+		annotation SummarizationSetBy = Automatic
+
+	column periodo
+		dataType: int64
+		formatString: 0
+		lineageTag: 515fcebc-202b-403a-b24c-e6b76c82c5ac
+		summarizeBy: sum
+		sourceColumn: periodo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'mes.1'
+		dataType: string
+		lineageTag: 8ade0a10-e138-4afe-9c2f-050a91ee5461
+		summarizeBy: none
+		sourceColumn: mes.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_sede_1
+		dataType: int64
+		formatString: 0
+		lineageTag: bb9b78fd-21db-4b96-9c6f-039ed3045154
+		summarizeBy: sum
+		sourceColumn: id_sede_1
+
+		annotation SummarizationSetBy = Automatic
+
+	column ppto
+		dataType: int64
+		formatString: 0
+		lineageTag: 695a4ec6-3948-42b7-9ddd-ce58c23c4948
+		summarizeBy: sum
+		sourceColumn: ppto
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column29
+		dataType: string
+		lineageTag: dff8e3c3-67c2-4b54-bf01-2d0d53fa6d97
+		summarizeBy: none
+		sourceColumn: Column29
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 65691fa6-b00b-4925-96db-475b0e5f13c8
+		summarizeBy: count
+		sourceColumn: ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column datekey_2
+		dataType: int64
+		formatString: 0
+		lineageTag: 91fe40c8-387e-43b6-8807-0a1eadc17f7e
+		summarizeBy: sum
+		sourceColumn: datekey_2
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Canal.1'
+		dataType: int64
+		formatString: 0
+		lineageTag: 53599778-e08a-40d3-8ce2-6bf50b2996ca
+		summarizeBy: sum
+		sourceColumn: Canal.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Cliente
+		dataType: int64
+		formatString: 0
+		lineageTag: 5f38bd65-a3fb-4fad-a07c-d80a6fb516be
+		summarizeBy: sum
+		sourceColumn: Cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column Segmento
+		dataType: string
+		lineageTag: f5bb32e8-0dcf-444b-9cc2-fa9a5494113c
+		summarizeBy: none
+		sourceColumn: Segmento
+
+		annotation SummarizationSetBy = Automatic
+
+	column Vehiculo
+		dataType: int64
+		formatString: 0
+		lineageTag: 9b7035aa-cdcc-4b35-8da7-f71d31a7bb06
+		summarizeBy: sum
+		sourceColumn: Vehiculo
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Costo Vehículo'
+		dataType: double
+		lineageTag: 53519abe-7498-4cdf-9aa1-478432341f37
+		summarizeBy: sum
+		sourceColumn: Costo Vehículo
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'Precio Venta sin IGV'
+		dataType: double
+		lineageTag: 5abb71f6-e3dd-41ad-af95-87c46aafe08a
+		summarizeBy: sum
+		sourceColumn: Precio Venta sin IGV
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column IGV
+		dataType: double
+		lineageTag: 06c5624a-7979-4714-9c51-71afa65457a2
+		summarizeBy: sum
+		sourceColumn: IGV
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Sede
+		dataType: int64
+		formatString: 0
+		lineageTag: 75b192e9-9b7d-4aa6-8ca3-419ec9026c10
+		summarizeBy: sum
+		sourceColumn: Sede
+
+		annotation SummarizationSetBy = Automatic
+
+	column Vendedor
+		dataType: int64
+		formatString: 0
+		lineageTag: 1441e40a-d220-4949-9049-ec036a864029
+		summarizeBy: sum
+		sourceColumn: Vendedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column41
+		dataType: string
+		lineageTag: a91b57d4-d038-4023-9b7e-851337e384c4
+		summarizeBy: none
+		sourceColumn: Column41
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Id.1'
+		dataType: int64
+		formatString: 0
+		lineageTag: 6d61ed2b-584a-4cc9-9418-7232e677a9aa
+		summarizeBy: sum
+		sourceColumn: Id.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column Modelo
+		dataType: string
+		lineageTag: 7081efcc-97fe-4a44-bd9c-3001aa3820ca
+		summarizeBy: none
+		sourceColumn: Modelo
+
+		annotation SummarizationSetBy = Automatic
+
+	column Version
+		dataType: string
+		lineageTag: 34471da4-94e8-440c-8d35-442c4bb05d8b
+		summarizeBy: none
+		sourceColumn: Version
+
+		annotation SummarizationSetBy = Automatic
+
+	column Precio
+		dataType: int64
+		formatString: 0
+		lineageTag: 234da5ec-050c-4ef3-914d-4f0ee57eaa0c
+		summarizeBy: sum
+		sourceColumn: Precio
+
+		annotation SummarizationSetBy = Automatic
+
+	column Imagen
+		dataType: string
+		lineageTag: b37b7e5c-b1d1-4514-b846-a1be1bbd866c
+		summarizeBy: none
+		sourceColumn: Imagen
+
+		annotation SummarizationSetBy = Automatic
+
+	column Column47
+		dataType: string
+		lineageTag: 4e4bcd04-ebc1-48b2-b640-a6ea1f7ef865
+		summarizeBy: none
+		sourceColumn: Column47
+
+		annotation SummarizationSetBy = Automatic
+
+	column ID_Vendedor
+		dataType: int64
+		formatString: 0
+		lineageTag: 57522860-ca0a-4b08-a307-cef34ae2698d
+		summarizeBy: none
+		sourceColumn: ID_Vendedor
+
+		annotation SummarizationSetBy = Automatic
+
+	column Vendedor_3
+		dataType: string
+		lineageTag: 25332f82-cc94-4ec8-be0d-18ac6b420035
+		summarizeBy: none
+		sourceColumn: Vendedor_3
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha_nacimiento
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 42873627-fade-47f8-a3b7-c04d34fa5225
+		summarizeBy: none
+		sourceColumn: fecha_nacimiento
+
+		variation Variación
+			isDefault
+			relationship: a679f805-f5a4-442f-b0e0-258096c94244
+			defaultHierarchy: LocalDateTable_20ee0e54-6ca1-4bb3-83f8-58082dd8001f.'Jerarquía de fechas'
+
+		annotation SummarizationSetBy = Automatic
+
+	column Foto
+		dataType: string
+		lineageTag: f9a63b70-e524-4e37-a372-98fc641bb89a
+		summarizeBy: none
+		sourceColumn: Foto
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Hoja1 = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(File.Contents("C:\Users\josue\Downloads\VentasVehiculos.xlsx"), null, true),
+				    Hoja1_Sheet = Origen{[Item="Hoja1",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Hoja1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"Fecha", type date}, {"Año", Int64.Type}, {"Semana", Int64.Type}, {"Mes", type text}, {"Numero Mes", Int64.Type}, {"datekey", Int64.Type}, {"Column7", type any}, {"id_canal", Int64.Type}, {"tipo_canal", type text}, {"canal", type text}, {"Column11", type any}, {"id_sede", Int64.Type}, {"nombre_sede", type text}, {"ubicacion_sede", type text}, {"Column15", type any}, {"id_Cliente", Int64.Type}, {"Nombre", type text}, {"Column18", type any}, {"id_vehiculo", Int64.Type}, {"marca_vehiculo", type text}, {"modelo_vehiculo", type text}, {"tipo_vehiculo", type text}, {"año_vehiculo", Int64.Type}, {"Column24", type any}, {"periodo", Int64.Type}, {"mes", type text}, {"id_sede_1", Int64.Type}, {"ppto", Int64.Type}, {"Column29", type any}, {"ID", Int64.Type}, {"datekey_2", Int64.Type}, {"Canal", Int64.Type}, {"Cliente", Int64.Type}, {"Segmento", type text}, {"Vehiculo", Int64.Type}, {"Costo Vehículo", type number}, {"Precio Venta sin IGV", type number}, {"IGV", type number}, {"Sede", Int64.Type}, {"Vendedor", Int64.Type}, {"Column41", type any}, {"Id", Int64.Type}, {"Modelo", type text}, {"Version", type text}, {"Precio", Int64.Type}, {"Imagen", type text}, {"Column47", type any}, {"ID_Vendedor", Int64.Type}, {"Vendedor_3", type text}, {"fecha_nacimiento", type datetime}, {"Foto", type text}}),
+				    #"Columnas con nombre cambiado" = Table.RenameColumns(#"Tipo cambiado",{{"mes", "mes.1"}, {"Canal", "Canal.1"}, {"Id", "Id.1"}})
+				in
+				    #"Columnas con nombre cambiado"
+
+	annotation PBI_ResultType = Table
+
